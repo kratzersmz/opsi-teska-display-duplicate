@@ -1,0 +1,22 @@
+[Package]
+version: 1
+depends: 
+
+[Product]
+type: localboot
+id: teska-display-duplicate
+name: teska-display-duplicate
+description: Erstellt eine Verknüpfung auf All-Users Desktop um den Bildschirm zu duplizieren, z.B. auf einen Beamer
+advice: 
+version: 1.0
+priority: 0
+licenseRequired: False
+productClasses: 
+setupScript: setup.ins
+uninstallScript: uninstall.ins
+updateScript: 
+alwaysScript: 
+onceScript: 
+customScript: 
+userLoginScript: 
+

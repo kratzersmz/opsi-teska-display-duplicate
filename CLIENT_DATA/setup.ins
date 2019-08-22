@@ -1,0 +1,18 @@
+[Actions]
+requiredWinstVersion >= "4.11.3.6"
+SetLogLevel = 7
+
+Message "Erstelle Desktop Verknüpfung für duplicate Display...."
+LinkFolder_install_64
+
+[LinkFolder_install_64]
+set_basefolder common_desktopdirectory
+set_subfolder ""
+set_link
+   name: Bildschirm-Duplizieren
+   target: "C:\Windows\System32\DisplaySwitch.exe"
+   parameters: " /clone"
+   working_dir: "C:\Windows\System32\"
+   icon_file: "C:\Windows\System32\DisplaySwitch.exe"
+   icon_index: 0
+end_link
